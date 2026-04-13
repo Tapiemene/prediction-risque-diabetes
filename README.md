@@ -16,18 +16,18 @@ Il suit une architecture modulaire, scalable, documentée, et prête pour GitHub
 
 ```
 prediction-risque-diabetes/
-├── README.md                          # This file
-├── requirements.txt                   # Project dependencies
-├── .gitignore                         # Git ignore rules
+├── README.md                          # Ce fichier
+├── requirements.txt                   # Dépendances du projet
+├── .gitignore                         # Règles git ignore
 ├── data/
-│   └── diabetes_risk_dataset.cvs      # Data documentation
+│   └── diabetes_risk_dataset.cvs      # L'esnsemble des données (data set)
 ├── src/
 │   ├── __init__.py
-│   ├── config.py                      # Configuration constants
-│   ├── data_loader.py                 # Load CSV data
-│   ├── preprocessing.py               # Data cleaning & encoding
-│   ├── eda.py                         # Exploratory Data Analysis
-│   ├── model.py                       # Model 
+│   ├── config.py                      # Configuration des constants
+│   ├── data_loader.py                 # Charge les données du fichier CSV
+│   ├── preprocessing.py               # Néttoyage et encodage des données
+│   ├── eda.py                         # Analyse exploratoire des données
+│   ├── model.py                       # Le model 
 ├── notebooks/
 │   └── diabetes_analysis.ipynb       
 └── results/

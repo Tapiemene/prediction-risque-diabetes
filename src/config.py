@@ -74,7 +74,7 @@ SAVE_PLOTS = True
 PLOT_FORMAT = 'png'
 
 # DPI des images (résolution)
-PLOT_DPI = 150
+PLOT_DPI = 300
 
 # Afficher les métriques détaillées du modèle
 VERBOSE = True
